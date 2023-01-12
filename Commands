@@ -1,1 +1,2 @@
-
+ansible-vault decrypt --vault-id=cft@~/.ansible-vault-cft.secret dolphin_ireland_{{FILE YOU WANT}}.yaml
+ansible-vault encrypt--vault-id=cft@~/.ansible-vault-cft.secret dolphin_ireland_{{FILE YOU WANT}}.yaml
