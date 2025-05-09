@@ -35,3 +35,8 @@ kubectl scale deployments first-app --replicas=3
 terraform
 applying a specific block resource
 terraform apply -target=aws_sns_topic.marlin-to-mantra-request-prd
+
+Jenkins
+decrypting the password:
+https://jenkins.fulcrumlimited.ca/script
+println(hudson.util.Secret.decrypt("SECRET_HERE_INLUDING_CURLY_BRACES"))
